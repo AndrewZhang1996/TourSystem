@@ -1,0 +1,69 @@
+
+
+body {
+  
+}
+
+
+#touristAnnoun{
+	margin-left: 1000px;
+}
+
+#announTextArea{
+	resize: none;
+	width: 300px;
+height: 200px;
+}
+
+#loginForm, #registerForm{
+	position: absolute;
+	top:0;
+	left:200px;
+	bottom:0;
+	right:0;
+	width:50%;
+	height:50%;
+	margin:auto;
+}
+
+#announcement{
+	position: absolute;
+	top:150px;
+	left:200px;
+	bottom:0;
+	right:0;
+	margin:auto;
+}
+
+#mainAnnouncement{
+	float:left;border:1px   ;
+	width:100%; 
+}
+
+#announcementMessage_current{
+	float:left;border:10px;
+	   width:50%; 
+}
+
+#announcementMessage_deliver{
+	float:left;border:10px;
+	   width:100%; 
+}
+
+.animate{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;  
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; /* Chrome and Safari */
+  -moz-backface-visibility:hidden; /* Firefox */
+  -ms-backface-visibility:hidden; /* Internet Explorer */
+}
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}

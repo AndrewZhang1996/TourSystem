@@ -1,0 +1,52 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/bootstrap.min.css" rel="stylesheet"></link>
+<script src="javascript/jquery.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<link href="css/style.css" rel="stylesheet">
+<title>Administrator Login Page</title>
+</head>
+
+<ol class="breadcrumb">
+	<li><a href="HomePage.html">Home</a></li>
+    <li><a href="Contact.html">Contact us</a></li>
+</ol>
+<div class="page-header">
+<h1 class="text-center lead">Welcome to administrator system!</h1>
+</div>
+    <body>
+    
+    <div id="wrongPwd" class="wrongPwd">
+    
+    </div>
+    <div id="loginForm">
+    <form action="LoginServlet" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputID">Stuff ID</label>
+    <div class="controls">
+      <input type="text" name="inputID" id="inputID" placeholder="Stuff ID">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" name="inputPassword" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <button id="login_button" class="btn" type="submit">Sign in</button>
+    </div>
+  </div>
+</form>
+</div>
+<input type="hidden" id="loginSuccess" name="loginSuccess">
+    </body>
+</html>
+<script>
+
+
+</script>
