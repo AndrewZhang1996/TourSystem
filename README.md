@@ -10,6 +10,7 @@ Functions of administrators:
 - add/remove scenic spot
 - add/remove roads between spots
 - broadcasting
+
 Functions of common users:
 - query map
 - query scenic spots
