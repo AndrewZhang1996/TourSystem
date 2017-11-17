@@ -1,4 +1,4 @@
-#TourSystem
+TourSystem
 --------------------------------------------------------
 
 This is a scenic spot management system.
