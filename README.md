@@ -1,4 +1,6 @@
 #TourSystem
+--------------------------------------------------------
+
 This is a scenic spot management system.
 
 This system have two types of users which are administrators and common users.
