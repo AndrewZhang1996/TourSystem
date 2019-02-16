@@ -22,7 +22,7 @@ This system can have different administrators and each administrator has differe
 
 This system is my data structure assignment in the university.
 
-You can access to this webpage at ~~"www.aishanghai.xin:8080/TourSystem1.3/HomePage.html" ~~
+You can access to this webpage at ~~"www.aishanghai.xin:8080/TourSystem1.3/HomePage.html" 
 
 If you have any questions, email me.
 
